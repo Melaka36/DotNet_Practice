@@ -28,6 +28,18 @@ namespace Variable
             int k = 30230;
             byte d = (byte)k;  // j=300 , 3 cannot be stored in a byte so we can cast
             Console.WriteLine(d); //data loss
+
+            //ToInt , ToString and etc
+            string num = "1234";
+            int n = Convert.ToInt32(num);
+            Console.WriteLine(n);
+
+            //operators
+            var w = 2;
+            var x = 3;
+            var y = 4;
+            Console.WriteLine(w&x);
+
         }
     }
 }
